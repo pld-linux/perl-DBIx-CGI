@@ -5,7 +5,7 @@ Summary:	DBIx::CGI perl module
 Summary(pl):	Modu³ perla DBIx::CGI
 Name:		perl-DBIx-CGI
 Version:	0.06
-Release:	6
+Release:	7
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -37,13 +37,11 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-gzip -9nf Changes README
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc Changes README
 %{perl_sitelib}/DBIx/CGI.pm
 %{_mandir}/man3/*
