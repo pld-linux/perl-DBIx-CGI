@@ -31,7 +31,7 @@ DBIx::CGI - ³atwy w u¿yciu interfejs DBI dla skryptów CGI.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
