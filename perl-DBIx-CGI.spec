@@ -1,12 +1,12 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	DBIx
 %define	pnam	CGI
-Summary:	DBIx::CGI perl module
-Summary(pl):	Modu³ perla DBIx::CGI
+Summary:	DBIx::CGI Perl module - easy to Use DBI interface for CGI scripts
+Summary(pl):	Modu³ Perla DBIx::CGI - ³atwy w u¿yciu interfejs DBI dla skryptów CGI
 Name:		perl-DBIx-CGI
 Version:	0.06
 Release:	8
-License:	GPL
+License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	c1c653b767f67608d073766e21c35522
@@ -20,10 +20,13 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-DBIx::CGI - Easy to Use DBI interface for CGI scripts.
+DBIx::CGI Perl module is an easy to use DBI interface for CGI scripts. 
+Currently only the Pg, mSQL and mysql drivers are supported.
 
 %description -l pl
-DBIx::CGI - ³atwy w u¿yciu interfejs DBI dla skryptów CGI.
+Modu³ Perla DBIx::CGI stanowi ³atwy w u¿yciu interfejs DBI dla
+skryptów CGI. Aktualnie obs³ugiwane s± jedynie starowniki Pg, mSQL i
+mysql.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
