@@ -16,7 +16,7 @@ BuildRequires:	perl-DBIx-Easy
 BuildRequires:	perl-HTML-Parser >= 3.05
 %requires_eq	perl
 Requires:	%{perl_sitearch}
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 DBIx-CGI - Easy to Use DBI interface for CGI scripts.
