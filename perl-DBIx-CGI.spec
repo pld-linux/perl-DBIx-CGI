@@ -15,8 +15,6 @@ BuildRequires:	perl >= 5.6
 BuildRequires:	perl-DBI
 BuildRequires:	perl-DBIx-Easy
 BuildRequires:	perl-HTML-Parser >= 3.05
-%requires_eq	perl
-Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
