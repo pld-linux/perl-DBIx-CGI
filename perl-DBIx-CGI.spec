@@ -5,7 +5,7 @@ Summary:	DBIx::CGI Perl module - easy to Use DBI interface for CGI scripts
 Summary(pl):	Modu³ Perla DBIx::CGI - ³atwy w u¿yciu interfejs DBI dla skryptów CGI
 Name:		perl-DBIx-CGI
 Version:	0.06
-Release:	8
+Release:	9
 License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
