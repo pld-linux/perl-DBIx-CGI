@@ -5,12 +5,12 @@ Summary:	DBIx::CGI perl module
 Summary(pl):	Modu³ perla DBIx::CGI
 Name:		perl-DBIx-CGI
 Version:	0.06
-Release:	7
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 Patch0:		%{name}-manpath.patch
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-DBI
 BuildRequires:	perl-DBIx-Easy
@@ -29,7 +29,8 @@ DBIx::CGI - ³atwy w u¿yciu interfejs DBI dla skryptów CGI.
 %patch -p0
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -43,5 +44,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_sitelib}/DBIx/CGI.pm
+%{perl_vendorlib}/DBIx/CGI.pm
 %{_mandir}/man3/*
