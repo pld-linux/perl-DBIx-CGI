@@ -1,0 +1,9 @@
+--- Makefile.PL~	Thu Nov 25 22:55:14 1999
++++ Makefile.PL	Thu Feb 17 16:46:12 2000
+@@ -8,6 +8,5 @@
+ WriteMakefile(
+ 	'NAME'	=> 'DBIx::CGI',
+ 	'VERSION_FROM' => 'CGI.pm', # finds $VERSION
+-	'INSTALLMAN3DIR' => '/usr/man/man3',
+ 	'EXE_FILES' => \@scripts
+ );
