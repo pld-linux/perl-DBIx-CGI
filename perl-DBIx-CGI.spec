@@ -30,7 +30,7 @@ DBIx-CGI - ³atwy w u¿yciu interfejs DBI dla skryptów CGI.
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
