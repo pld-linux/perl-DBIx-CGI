@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	DBIx
 %define	pnam	CGI
-%include	/usr/lib/rpm/macros.perl
 Summary:	DBIx-CGI perl module
 Summary(pl):	Modu³ perla DBIx-CGI
 Name:		perl-DBIx-CGI
 Version:	0.06
-Release:	5
-
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -26,7 +25,7 @@ DBIx-CGI - Easy to Use DBI interface for CGI scripts.
 DBIx-CGI - ³atwy w u¿yciu interfejs DBI dla skryptów CGI.
 
 %prep
-%setup -q -n DBIx-CGI-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 %patch -p0
 
 %build
