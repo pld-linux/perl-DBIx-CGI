@@ -12,7 +12,7 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 # Source0-md5:	c1c653b767f67608d073766e21c35522
 Patch0:		%{name}-manpath.patch
 BuildRequires:	rpm-perlprov >= 4.1-13
-BuildRequires:	perl-devel >= 5.6
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-DBI
 BuildRequires:	perl-DBIx-Easy
 BuildRequires:	perl-HTML-Parser >= 3.05
