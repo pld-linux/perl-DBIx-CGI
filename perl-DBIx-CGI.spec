@@ -29,7 +29,7 @@ DBIx::CGI - ³atwy w u¿yciu interfejs DBI dla skryptów CGI.
 %patch -p0
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
