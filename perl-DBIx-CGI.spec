@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	DBIx
-%define	pnam	CGI
+%define		pdir	DBIx
+%define		pnam	CGI
 Summary:	DBIx::CGI Perl module - easy to Use DBI interface for CGI scripts
 Summary(pl):	Modu³ Perla DBIx::CGI - ³atwy w u¿yciu interfejs DBI dla skryptów CGI
 Name:		perl-DBIx-CGI
