@@ -21,12 +21,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 DBIx::CGI Perl module is an easy to use DBI interface for CGI scripts. 
-Currently only the Pg, mSQL and mysql drivers are supported.
+Currently only the Pg, mSQL and MySQL drivers are supported.
 
 %description -l pl
 Modu³ Perla DBIx::CGI stanowi ³atwy w u¿yciu interfejs DBI dla
 skryptów CGI. Aktualnie obs³ugiwane s± jedynie starowniki Pg, mSQL i
-mysql.
+MySQL.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
