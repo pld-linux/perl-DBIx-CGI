@@ -7,8 +7,8 @@ Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/DBIx/DBIx-CGI-%{version}.tar.gz
-Patch:		perl-DBIx-CGI-manpath.patch
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/DBIx/DBIx-CGI-%{version}.tar.gz
+Patch0:		perl-DBIx-CGI-manpath.patch
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 BuildRequires:	perl-DBI
