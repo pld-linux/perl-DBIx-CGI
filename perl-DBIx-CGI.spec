@@ -3,7 +3,7 @@ Summary:	DBIx-CGI perl module
 Summary(pl):	Modu³ perla DBIx-CGI
 Name:		perl-DBIx-CGI
 Version:	0.06
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
