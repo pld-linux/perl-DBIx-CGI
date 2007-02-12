@@ -2,7 +2,7 @@
 %define		pdir	DBIx
 %define		pnam	CGI
 Summary:	DBIx::CGI Perl module - easy to Use DBI interface for CGI scripts
-Summary(pl):	Modu≥ Perla DBIx::CGI - ≥atwy w uøyciu interfejs DBI dla skryptÛw CGI
+Summary(pl.UTF-8):   Modu≈Ç Perla DBIx::CGI - ≈Çatwy w u≈ºyciu interfejs DBI dla skrypt√≥w CGI
 Name:		perl-DBIx-CGI
 Version:	0.06
 Release:	9
@@ -23,9 +23,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 DBIx::CGI Perl module is an easy to use DBI interface for CGI scripts. 
 Currently only the Pg, mSQL and MySQL drivers are supported.
 
-%description -l pl
-Modu≥ Perla DBIx::CGI stanowi ≥atwy w uøyciu interfejs DBI dla
-skryptÛw CGI. Aktualnie obs≥ugiwane s± jedynie starowniki Pg, mSQL i
+%description -l pl.UTF-8
+Modu≈Ç Perla DBIx::CGI stanowi ≈Çatwy w u≈ºyciu interfejs DBI dla
+skrypt√≥w CGI. Aktualnie obs≈Çugiwane sƒÖ jedynie starowniki Pg, mSQL i
 MySQL.
 
 %prep
