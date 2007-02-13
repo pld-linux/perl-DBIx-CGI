@@ -2,7 +2,7 @@
 %define		pdir	DBIx
 %define		pnam	CGI
 Summary:	DBIx::CGI Perl module - easy to Use DBI interface for CGI scripts
-Summary(pl.UTF-8):   Moduł Perla DBIx::CGI - łatwy w użyciu interfejs DBI dla skryptów CGI
+Summary(pl.UTF-8):	Moduł Perla DBIx::CGI - łatwy w użyciu interfejs DBI dla skryptów CGI
 Name:		perl-DBIx-CGI
 Version:	0.06
 Release:	9
